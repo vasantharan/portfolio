@@ -2,12 +2,12 @@ import React from "react";
 import hero from "../assets/home.png";
 import hi from "../assets/Hand_Wave.gif";
 const Home = () => {
-    const social_media = [
-        "logo-instagram",
-        "logo-facebook",
-        "logo-linkedin",
-        "logo-twitter",
-    ];
+    // const social_media = [
+    //     "logo-instagram",
+    //     "logo-facebook",
+    //     "logo-linkedin",
+    //     "logo-twitter",
+    // ];
     return (
         <section
         id="home"
