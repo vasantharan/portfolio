@@ -40,10 +40,10 @@ const Project = () => {
                     <img src={pro} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto" />
                     <h3 className="text-xl my-4">Detecting Signs of Depression using Social Media Text</h3>
                     <div className="flex gap-3">
-                        <a href="https://github.com/vasantharan/detecting_signs_of_depression" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://github.com/vasantharan/detecting_signs_of_depression" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Github
                         </a>
-                        <a href="https://aclanthology.org/2023.ltedi-1.46/" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://aclanthology.org/2023.ltedi-1.46/" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Paper Published
                         </a>
                     </div>
@@ -54,7 +54,7 @@ const Project = () => {
                     <img src={pro} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto" />
                     <h3 className="text-xl my-4">Python Nested Folder Dicom File Retriever</h3>
                     <div className="flex gap-3">
-                        <a href="https://github.com/vasantharan/Python_Nested_Folder_File_Retriever" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://github.com/vasantharan/Python_Nested_Folder_File_Retriever" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Github
                         </a>
                     </div>
@@ -65,7 +65,7 @@ const Project = () => {
                     <img src={pro} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto" />
                     <h3 className="text-xl my-4">Python Script to Convert Dicom To JPEG Converter</h3>
                     <div className="flex gap-3">
-                        <a href="https://github.com/vasantharan/dcm_to_jpg_converter" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://github.com/vasantharan/dcm_to_jpg_converter" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Github
                         </a>
                     </div>
@@ -76,7 +76,7 @@ const Project = () => {
                     <img src={pro} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto" />
                     <h3 className="text-xl my-4">Event Detection From News Using ML Models</h3>
                     <div className="flex gap-3">
-                        <a href="https://github.com/vasantharan/EVENT_DETECTION_USING_ML_MODELS" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://github.com/vasantharan/EVENT_DETECTION_USING_ML_MODELS" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Github
                         </a>
                     </div>
@@ -87,7 +87,7 @@ const Project = () => {
                     <img src={pro} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto" />
                     <h3 className="text-xl my-4">Colorization Of Black and White Image Using Deep Learning</h3>
                     <div className="flex gap-3">
-                        <a href="https://github.com/vasantharan/Colorization_Of_Black_and_White_Image_Using_Deep_Learning" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://github.com/vasantharan/Colorization_Of_Black_and_White_Image_Using_Deep_Learning" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Github
                         </a>
                     </div>
@@ -98,7 +98,7 @@ const Project = () => {
                     <img src={pro} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto" />
                     <h3 className="text-xl my-4">Air Quality Index Analysis Dashboard Using PowerBi</h3>
                     <div className="flex gap-3">
-                        <a href="https://github.com/vasantharan/AIR-QUALITY-INDEX-DASHBOARD-USING-POWERBI" target="_blank" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
+                        <a href="https://github.com/vasantharan/AIR-QUALITY-INDEX-DASHBOARD-USING-POWERBI" target="_blank" rel="noreferrer" className="text-sky-600 bg-gray-800 px-2 py-1 inline-block">
                         Github
                         </a>
                     </div>

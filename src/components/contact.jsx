@@ -25,16 +25,16 @@ const Contact = () => {
                 >
                     <div className="flex flex-col flex-1">
                         <div className="flex flex-row flex-1 gap-5 justify-center">
-                            <SocialIcon url="https://www.linkedin.com/in/vasantharank" target="_blank" /> 
-                            <SocialIcon url="https://www.github.com/vasantharan" target="_blank" />
-                            <SocialIcon url="https://www.twitter.com/vasantharank" target="_blank"/>
+                            <SocialIcon url="https://www.linkedin.com/in/vasantharank" target="_blank" rel="noreferrer" /> 
+                            <SocialIcon url="https://www.github.com/vasantharan" target="_blank" rel="noreferrer" />
+                            <SocialIcon url="https://www.twitter.com/vasantharank" target="_blank" rel="noreferrer"/>
                             {/* <SocialIcon url="https://www.gitlab.com/vasantharan" target="_blank"/> */}
                         </div>
                         <div className="flex flex-row flex-1 gap-5 justify-center mt-6">
                             {/* <SocialIcon url="https://www.linkedin.com/in/vasantharank" target="_blank" /> 
                             <SocialIcon url="https://www.github.com/vasantharan" target="_blank" />
                             <SocialIcon url="https://www.twitter.com/vasantharank" target="_blank"/> */}
-                            <SocialIcon url="https://www.gitlab.com/vasantharan" target="_blank"/>
+                            <SocialIcon url="https://www.gitlab.com/vasantharan" target="_blank" rel="noreferrer"/>
                         </div>
                     </div>
                     {/* <div className="flex flex-row flex-1 gap-5 justify-center">
