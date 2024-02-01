@@ -35,6 +35,7 @@ const Contact = () => {
                             <SocialIcon url="https://www.github.com/vasantharan" target="_blank" />
                             <SocialIcon url="https://www.twitter.com/vasantharank" target="_blank"/> */}
                             <SocialIcon url="https://www.gitlab.com/vasantharan" target="_blank" rel="noreferrer"/>
+                            <SocialIcon url="https://www.youtube.com/channel/UCTRwChNmnHf4MRFIOwZ60Cg" target="_blank" rel="noreferrer"/>
                         </div>
                     </div>
                     {/* <div className="flex flex-row flex-1 gap-5 justify-center">
