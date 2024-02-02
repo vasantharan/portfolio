@@ -16,7 +16,7 @@ function Blog1(){
                     />
                     </div>
                 </div>
-                <h3 className="text-white mt-6 text-lg">Introduction</h3>
+                <h3 className="text-white mt-6 text-lg font-bold">Introduction</h3>
                 <div className="flex md:flex-row flex-col-reverse items-center mt-0 md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                     <div className="p-2">
                         <div className="text-gray-300 my-3">
@@ -26,7 +26,7 @@ function Blog1(){
                         </div>
                     </div>
                 </div>
-                <h3 className="text-white mt-0 text-lg">Understanding the SSB Interview Process:</h3>
+                <h2 className="text-white mt-0 text-lg font-bold">Understanding the SSB Interview Process</h2>
                 <div className="flex md:flex-row flex-col-reverse items-center mt-0 md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                     <div className="p-2">
                         <div className="text-gray-300 my-3">
@@ -36,7 +36,7 @@ function Blog1(){
                         </div>
                     </div>
                 </div>
-                <h3 className="text-white mt-0 text-lg">Tips for Success:</h3>
+                <h3 className="text-white mt-0 text-lg font-bold">Tips for Success</h3>
                 <div className="flex md:flex-row flex-col-reverse items-center mt-0 md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                     <div className="p-2">
                         <div className="text-gray-300 my-3">
@@ -69,7 +69,7 @@ function Blog1(){
                         </div>
                     </div>
                 </div>
-                <h3 className="text-white mt-0 text-lg">Conclusion:</h3>
+                <h3 className="text-white mt-0 text-lg font-bold">Conclusion</h3>
                 <div className="flex md:flex-row flex-col-reverse items-center mt-0 md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                     <div className="p-2">
                         <div className="text-gray-300 my-3">
