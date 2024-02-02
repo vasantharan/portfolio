@@ -39,9 +39,9 @@ const Navbar = () => {
                         <a href={menu?.link}>{menu?.name}</a>
                     </li>
                     ))}
-                    {/* <li className="px-6 hover:text-sky-600">
-                        <a href="/">BLOG</a>
-                    </li> */}
+                    <li className="px-6 hover:text-sky-600">
+                        <a href="/blog">BLOG</a>
+                    </li>
                 </ul>
                 </div>
                 <div
@@ -68,12 +68,12 @@ const Navbar = () => {
                         <a href={menu?.link}>{menu?.name}</a>
                     </li>
                     ))}
-                    {/* <li
+                    <li
                         onClick={() => setOpen(false)}
                         className="px-6 hover:text-sky-600"
                     >
-                        <a href="/">BLOG</a>
-                    </li> */}
+                        <a href="/blog">BLOG</a>
+                    </li>
                 </ul>
                 </div>
             </div>
