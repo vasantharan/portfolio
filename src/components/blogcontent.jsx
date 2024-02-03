@@ -39,7 +39,7 @@ function BlogContent(){
                 <SwiperSlide key={1}>
                     <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
                     <img src={ssb} alt="" width={"90%"} className="rounded-lg ml-auto mr-auto h-48" />
-                    <a href="/1" className=" px-2 py-1 inline-block">
+                    <a href="/blog/1" className=" px-2 py-1 inline-block">
                         <h3 className="text-xl my-4">Mastering SSB Interviews: A Guide to Joining the Indian Defense Forces</h3>
                     </a>
                     </div>

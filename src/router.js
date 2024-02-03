@@ -10,7 +10,7 @@ function Routess()
             <Routes>
                 <Route path="/" element={<Main/>}/>
                 <Route path="/blog" element={<Blog/>}/>
-                <Route path="/1" element={<First/>}/>
+                <Route path="/blog/1" element={<First/>}/>
             </Routes> 
         </BrowserRouter>
     )
