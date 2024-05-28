@@ -4,7 +4,7 @@ const About = () => {
     const info = [
         { text: "Undergraduate Degree", count: "B. Tech" },
         { text: "Current Semester", count: "06" },
-        { text: "Current CGPA", count: "9.57" },
+        { text: "Current CGPA", count: "9.60" },
         { text: "Projects Done", count: "6" },
     ];
     return (
