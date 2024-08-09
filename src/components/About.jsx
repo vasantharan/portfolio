@@ -3,8 +3,8 @@ import aboutImg from "../assets/img-bg-rem.png";
 const About = () => {
     const info = [
         { text: "Undergraduate Degree", count: "B. Tech" },
-        { text: "Current Semester", count: "06" },
-        { text: "Current CGPA", count: "9.60" },
+        { text: "Current Semester", count: "07" },
+        { text: "Current CGPA", count: "9.58" },
         { text: "Projects Done", count: "6" },
     ];
     return (
