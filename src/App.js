@@ -1,13 +1,15 @@
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <div id="home" style={{ height: '100vh', paddingTop: 80 }}>Home Section</div>
-      <div id="about" style={{ height: '100vh' }}>About Section</div>
+      <Hero/>
+      <div id="about" style={{ height: '100vh', top: "80vh" }}>About Section</div>
       <div id="experience" style={{ height: '100vh' }}>Experience Section</div>
+      <div id="education" style={{ height: '100vh' }}>Education Section</div>
       <div id="skills" style={{ height: '100vh' }}>Skills Section</div>
       <div id="projects" style={{ height: '100vh' }}>Projects Section</div>
       <div id="achievements" style={{ height: '100vh' }}>Achievements Section</div>

@@ -22,6 +22,7 @@ const menuLinks = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Experience", link: "#experience" },
+    { name: "Education", link: "#education" },
     { name: "Skills", link: "#skills" },
     { name: "Projects", link: "#projects" },
     { name: "Achievements", link: "#achievements" },
@@ -72,8 +73,10 @@ const Navbar = () => {
                                     href={item.link}
                                     sx={{
                                         color: "inherit",
-                                        mx: 1.5,
-                                        "&:hover": { color: "#22d3ee" },
+                                        textTransform: "none",
+                                        fontSize: "17px",
+                                        mx: 0.9,
+                                        "&:hover": { color: "#22d3ee", backgroundColor: 'transparent'},
                                     }}
                                 >
                                     {item.name}
@@ -93,7 +96,7 @@ const Navbar = () => {
                             onClick={toggleDrawer(true)} // Open drawer when hamburger is clicked
                             sx={{
                             position: "absolute", // Position outside the drawer
-                            top: 10, // Distance from the top
+                            top: 15, // Distance from the top
                             right: 20, // Distance from the right
                             zIndex: 1500, // Ensure the hamburger icon is above the drawer
                             }}
@@ -132,7 +135,7 @@ const Navbar = () => {
                             color="inherit"
                             sx={{
                                 position: "absolute", // Position outside the drawer
-                                top: 10, // Distance from the top
+                                top: 15, // Distance from the top
                                 right: 20, // Distance from the right
                                 zIndex: 1500, // Ensure the hamburger icon is above the drawer
                                 }}
