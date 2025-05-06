@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section
             id="home"
-            className="min-h-screen flex items-center justify-center bg-gradient-to-r from-black to-black pt-10 px-4"
+            className="min-h-screen flex items-center justify-center bg-gradient-to-r pt-10 px-4"
         >
             {/* Sub-background wrapper with padding */}
             <div className="w-full max-w-7xl bg-[#1f1f1f] rounded-xl shadow-xl p-6 md:p-10 flex md:flex-row flex-col items-center gap-10 hover:shadow-[0_0_20px_10px_rgba(255,255,255,0.5)] hover:scale-100 transition-all ease-in-out">
