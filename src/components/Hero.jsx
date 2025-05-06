@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 import intro from "../assets/photos/intro.png";
-import hi from "../assets/photos/hi.png";
+import hi from "../assets/logo/hi.png";
 
 const Hero = () => {
     return (
@@ -10,11 +10,11 @@ const Hero = () => {
             className="min-h-screen flex items-center justify-center bg-gradient-to-r pt-10 px-4"
         >
             {/* Sub-background wrapper with padding */}
-            <div className="w-full max-w-7xl bg-[#1f1f1f] rounded-xl shadow-xl p-6 md:p-10 flex md:flex-row flex-col items-center gap-10 hover:shadow-[0_0_20px_10px_rgba(255,255,255,0.5)] hover:scale-100 transition-all ease-in-out">
+            <div className="w-full max-w-7xl rounded-xl shadow-xl p-6 md:p-10 flex md:flex-row flex-col items-center gap-10">
                 
                 {/* Left Side - Image */}
                 <div className="flex-1 flex items-center justify-center">
-                    <div className="cursor-pointer w-72 sm:w-80 md:w-50 h-72 sm:h-80 md:h-96 p-4 bg-gray-700 rounded-lg shadow-lg group duration-300 hover:shadow-2xl [transform:perspective(800px)_rotateY(10deg)] hover:[transform:perspective(800px)_rotateY(-10deg)]">
+                    <div className="cursor-pointer w-72 sm:w-80 md:w-50 h-72 sm:h-80 md:h-96 p-4 bg-gray-700 rounded-lg shadow-lg group duration-300 hover:shadow-2xl [transform:perspective(800px)_rotateY(10deg)] hover:[transform:perspective(800px)_rotateY(-10deg)] hover:shadow-[0_0_20px_10px_rgba(255,255,255,0.5)] hover:scale-100 transition-all ease-in-out">
                         <div className="w-full h-full rounded-lg flex items-center justify-center">
                             <img
                                 className="h-full w-auto object-contain duration-300 group-hover:-translate-x-8"

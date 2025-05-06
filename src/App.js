@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
 import Footer from "./components/Footer";
 
@@ -13,8 +15,8 @@ function App() {
       <div id="about" style={{ height: '100vh' }}>1. About Section</div>
       <Experience/>
       <Education/>
-      <div id="skills" style={{ height: '100vh' }}>4. Skills Section</div>
-      <div id="projects" style={{ height: '100vh' }}>5. Projects Section</div>
+      <Skills/> 
+      <Projects/>
       <Achievements/>
       <div id="youtube" style={{ height: '100vh' }}>7. YouTube Section</div>
       <div id="topmate" style={{ height: '100vh' }}>8. Topmate Section</div>

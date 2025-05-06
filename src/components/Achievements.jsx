@@ -58,7 +58,7 @@ const Achievements = () => {
                     className="w-full md:w-1/2 flex justify-center"
                 >
                     <div
-                        className="rounded-xl transition-transform duration-500 [transform:perspective(800px)_rotateY(0deg)] hover:[transform:perspective(800px)_rotateY(-10deg)] hover:shadow-2xl hover:shadow-[0_0_20px_10px_rgba(255,255,255,0.5)] transition-all ease-in-out"
+                        className="cursor-pointer rounded-xl transition-transform duration-500 [transform:perspective(800px)_rotateY(0deg)] hover:[transform:perspective(800px)_rotateY(-10deg)] hover:shadow-2xl hover:shadow-[0_0_20px_10px_rgba(255,255,255,0.5)] transition-all ease-in-out"
                     >
                         <img
                             src={achiver}

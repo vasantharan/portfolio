@@ -61,7 +61,6 @@ const Experience = () => {
     return (
         <section id="experience" className="py-10 text-white pt-20">
             <h2 className="text-3xl font-bold text-center mb-12">Experience</h2>
-
             <div className="relative w-full max-w-6xl mx-auto px-4">
                 {/* Vertical line */}
                 <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-blue-500 z-0" />
