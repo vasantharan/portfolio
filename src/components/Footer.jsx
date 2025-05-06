@@ -1,22 +1,10 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
 
 const Footer = () => {
     return (
-        <Box
-        component="footer"
-        sx={{
-            backgroundColor: "#1f1f1f", 
-            color: "#00000", 
-            py: 2,
-            textAlign: "center",
-            mt: 5,
-        }}
-        >
-        <Typography variant="body2">
-            Copyright © 2025 <strong>Vasantharan K</strong>. All Rights Reserved.
-        </Typography>
-        </Box>
+        <div className="bg-[#1f1f1f] text-sm p-4 text-center text-white bottom-0">
+            Copyright © 2025 Vasantharan K. All Rights Reserved.
+        </div>
     );
 };
 
