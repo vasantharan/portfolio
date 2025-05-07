@@ -15,7 +15,7 @@ const AchievementCard = ({ item, index }) => {
         } else {
             controls.start({ opacity: 0, x: 50 });
         }
-    }, [inView, controls]);
+    }, [inView, controls]); // ✅ All dependencies included
 
     return (
         <motion.div
@@ -44,6 +44,20 @@ const AchievementCard = ({ item, index }) => {
 
 const Achievements = () => {
     const reversedData = [...achievementData].reverse();
+
+    // Image scroll in/out motion setup
+    const imageRef = useRef(null);
+    const imageInView = useInView(imageRef, { threshold: 0.3 });
+    const imageControls = useAnimation();
+
+    useEffect(() => {
+        if (imageInView) {
+            imageControls.start({ opacity: 1, x: 0 });
+        } else {
+            imageControls.start({ opacity: 0, x: -80 });
+        }
+    }, [imageInView, imageControls]); // ✅ Both dependencies correctly included
+
     return (
         <section id="achievements" className="py-16 px-4 pt-20 text-white overflow-x-hidden">
             <h2 className="text-3xl font-bold text-center mb-12">Achievements</h2>
@@ -51,10 +65,10 @@ const Achievements = () => {
             <div className="flex flex-col md:flex-row items-start justify-center max-w-full mx-auto gap-10">
                 {/* Left - Animated Image */}
                 <motion.div
+                    ref={imageRef}
+                    animate={imageControls}
                     initial={{ opacity: 0, x: -80 }}
-                    whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
                     className="w-full md:w-1/2 flex justify-center"
                 >
                     <div
@@ -72,7 +86,6 @@ const Achievements = () => {
                 <div className="relative w-full md:w-1/2">
                     {/* Timeline Line */}
                     <div className="absolute left-4 top-0 h-full border-l-2 border-yellow-400 z-0" />
-
                     <div className="ml-4 md:ml-10">
                         {reversedData.map((item, index) => (
                             <AchievementCard key={index} item={item} index={index} />

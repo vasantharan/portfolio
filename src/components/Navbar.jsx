@@ -76,7 +76,7 @@ const Navbar = () => {
                                         textTransform: "none",
                                         fontSize: "17px",
                                         mx: 0.9,
-                                        "&:hover": { color: "#22d3ee", backgroundColor: 'transparent'},
+                                        "&:hover": { color: "#3182ce", backgroundColor: 'transparent'},
                                     }}
                                 >
                                     {item.name}
@@ -93,12 +93,12 @@ const Navbar = () => {
                         <IconButton
                             edge="end"
                             color="inherit"
-                            onClick={toggleDrawer(true)} // Open drawer when hamburger is clicked
+                            onClick={toggleDrawer(true)} 
                             sx={{
-                            position: "absolute", // Position outside the drawer
-                            top: 15, // Distance from the top
-                            right: 20, // Distance from the right
-                            zIndex: 1500, // Ensure the hamburger icon is above the drawer
+                            position: "absolute", 
+                            top: 15, 
+                            right: 20, 
+                            zIndex: 1500, 
                             }}
                         >
                             <MenuIcon sx={{ color: "black" }} />
@@ -109,17 +109,17 @@ const Navbar = () => {
                         <Drawer
                         anchor="right"
                         open={open}
-                        onClose={toggleDrawer(false)} // Close drawer when clicking outside
+                        onClose={toggleDrawer(false)} 
                         PaperProps={{
                             sx: {
-                            backgroundColor: "#ffffff", // solid white
-                            backdropFilter: "none", // remove blur
+                            backgroundColor: "#ffffff", 
+                            backdropFilter: "none", 
                             color: "#000",
-                            zIndex: 1400, // lower than the hamburger icon
+                            zIndex: 1400, 
                             },
                         }}
                         ModalProps={{
-                            sx: { zIndex: 1400 }, // ensure modal root is above AppBar
+                            sx: { zIndex: 1400 }, 
                         }}
                         >
                         {/* Close Icon inside the drawer */}
@@ -127,19 +127,19 @@ const Navbar = () => {
                             sx={{
                             display: "flex",
                             justifyContent: "flex-end",
-                            padding: "10px", // Add some padding for spacing
+                            padding: "10px", 
                             }}
                         >
                             <IconButton
                             edge="end"
                             color="inherit"
                             sx={{
-                                position: "absolute", // Position outside the drawer
-                                top: 15, // Distance from the top
-                                right: 20, // Distance from the right
-                                zIndex: 1500, // Ensure the hamburger icon is above the drawer
+                                position: "absolute", 
+                                top: 15, 
+                                right: 20, 
+                                zIndex: 1500, 
                                 }}
-                            onClick={toggleDrawer(false)} // Close the drawer
+                            onClick={toggleDrawer(false)} 
                             >
                             <CloseIcon sx={{ color: "black" }} />
                             </IconButton>

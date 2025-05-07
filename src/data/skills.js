@@ -1,3 +1,27 @@
-const skills = ['python', 'docker', 'fastapi', 'flask', 'c', 'aws', 'git', 'github', 'opencv', 'tensorflow', 'java', 'react', 'nodejs','mongodb', 'html', 'css', 'javascript', 'terraform',];
+const skills = [
+    'python', 
+    'docker', 
+    'fastapi', 
+    'flask', 
+    'githubactions', 
+    'postman', 
+    'aws', 
+    'git', 
+    'github', 
+    'opencv', 
+    'tensorflow', 
+    'c', 
+    'java', 
+    'react', 
+    'nodejs',
+    'mongodb', 
+    'html', 
+    'css', 
+    'javascript', 
+    'terraform', 
+    'bootstrap', 
+    'arduino', 
+    'linux',
+];
 
 export default skills;

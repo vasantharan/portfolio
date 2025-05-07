@@ -5,6 +5,9 @@ import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
+import Youtube from "./components/Youtube";
+import Topmate from "./components/Topmate";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,14 +16,14 @@ function App() {
       <Navbar/>
       <Hero/>
       <div id="about" style={{ height: '100vh' }}>1. About Section</div>
-      <Experience/>
-      <Education/>
-      <Skills/> 
-      <Projects/>
-      <Achievements/>
-      <div id="youtube" style={{ height: '100vh' }}>7. YouTube Section</div>
-      <div id="topmate" style={{ height: '100vh' }}>8. Topmate Section</div>
-      <div id="contact" style={{ height: '100vh' }}>9. Contact Section</div>
+      <Experience/> {/* animated */}
+      <Education/> {/* animated */}
+      <Skills/>  {/* animated */}
+      <Projects/> {/* animated */}
+      <Achievements/>  {/* animated */}
+      <Youtube/> {/* animated */}
+      <Topmate/> {/* animated */}
+      <Contact/>
       <Footer/>
     </div>
   );
