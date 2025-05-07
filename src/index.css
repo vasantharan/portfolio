@@ -4,8 +4,10 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 } 
 
 body {
   @apply box-border bg-black text-white;
+  overflow-x: hidden;
 }

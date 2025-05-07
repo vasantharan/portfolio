@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
@@ -14,8 +15,8 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <div id="about" style={{ height: '100vh' }}>1. About Section</div>
+      <Hero/> {/* animated */}
+      <About/>
       <Experience/> {/* animated */}
       <Education/> {/* animated */}
       <Skills/>  {/* animated */}
@@ -23,8 +24,8 @@ function App() {
       <Achievements/>  {/* animated */}
       <Youtube/> {/* animated */}
       <Topmate/> {/* animated */}
-      <Contact/>
-      <Footer/>
+      <Contact/> {/* animated */}
+      <Footer/> {/* animated */}
     </div>
   );
 }
