@@ -13,10 +13,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="relative">
       <Navbar/>
       <Hero/> {/* animated */}
-      <About/>
+      <About/> {/* animated */}
       <Experience/> {/* animated */}
       <Education/> {/* animated */}
       <Skills/>  {/* animated */}
@@ -25,7 +25,7 @@ function App() {
       <Youtube/> {/* animated */}
       <Topmate/> {/* animated */}
       <Contact/> {/* animated */}
-      <Footer/> {/* animated */}
+      <Footer/>
     </div>
   );
 }
