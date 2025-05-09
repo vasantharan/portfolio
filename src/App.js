@@ -17,16 +17,16 @@ function App() {
   return (
     <div className="relative">
       <Navbar/>
-      <Hero/> {/* animated */}
-      <About/> {/* animated */}
-      <Experience/> {/* animated */}
-      <Education/> {/* animated */}
-      <Skills/>  {/* animated */}
-      <Projects/> {/* animated */}
-      <Achievements/>  {/* animated */}
-      <Youtube/> {/* animated */}
-      <Topmate/> {/* animated */}
-      <Contact/> {/* animated */}
+      <Hero/> 
+      <About/> 
+      <Experience/> 
+      <Education/> 
+      <Skills/>  
+      <Projects/> 
+      <Achievements/>  
+      <Youtube/> 
+      <Topmate/> 
+      <Contact/> 
       <Footer/>
       <Analytics/>
       <SpeedInsights/>
