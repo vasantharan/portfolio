@@ -2,7 +2,7 @@ const educationData = [
     {
         course: "SSLC - Secondary School Leaving Certificate",
         institute: "Kongu Engineering College",
-        score: 9.57,
+        score: "93.6%",
         years: "2021 - 2025"
     },
     {
