@@ -8,23 +8,11 @@ html {
 } 
 
 body {
-  @apply box-border bg-black text-white;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  background-image: url('./assets/photos/bg.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-body {
   @apply box-border bg-black text-white relative;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-image: url('./assets/photos/bg.jpg');
+  background-image: url('./assets/background/bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

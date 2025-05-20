@@ -3,7 +3,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 import tp from "../assets/photos/topmate.jpg";
 import tplogo from "../assets/logo/topmatelogo.png";
 
-const topmateurl = "https://topmate.io/vasantharank";
+const topmateurl = "https://topmate.io/vasantharan";
 
 const Topmate = () => {
     const imageRef = useRef(null);

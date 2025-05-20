@@ -15,7 +15,7 @@ const AchievementCard = ({ item, index }) => {
         } else {
             controls.start({ opacity: 0, x: 50 });
         }
-    }, [inView, controls]); // ✅ All dependencies included
+    }, [inView, controls]); 
 
     return (
         <motion.div
@@ -56,7 +56,7 @@ const Achievements = () => {
         } else {
             imageControls.start({ opacity: 0, x: -80 });
         }
-    }, [imageInView, imageControls]); // ✅ Both dependencies correctly included
+    }, [imageInView, imageControls]); 
 
     return (
         <section id="achievements" className="py-16 px-4 pt-20 text-white overflow-x-hidden">
