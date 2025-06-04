@@ -62,7 +62,7 @@ const Contact = () => {
           animate={contentControls}
           initial={{ opacity: 0, x: 50 }}
           transition={{ duration: 0.8 }}
-          className="md:w-auto w-full p-4 flex flex-col items-center md:items-start justify-center gap-4"
+          className="md:w-3/5 w-full p-4 flex flex-col items-center md:items-start justify-center gap-4"
         >
           {/* Social Icons */}
           <div className="flex gap-4 flex-wrap">
