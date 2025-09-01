@@ -41,7 +41,7 @@ const contactData = [
     {
         type: "topmate",
         logo: topmate,
-        content: "https://topmate.io/vasantharank"
+        content: "https://topmate.io/vasantharan"
     },
     {
         type: "location",
