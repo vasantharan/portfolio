@@ -3,7 +3,7 @@ const educationData = [
         course: "SSLC - Secondary School Leaving Certificate",
         institute: "Kongu Engineering College",
         score: "93.6%",
-        years: "2021 - 2025"
+        years: "2018 - 2019"
     },
     {
         course: "HSC - Higher Secondary Education",
