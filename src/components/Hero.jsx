@@ -83,7 +83,7 @@ const Hero = () => {
                     sequence={[
                     "Content Creator",
                     2000,
-                    "Educator",
+                    "Freelance Educator",
                     2000,
                     "Mentor",
                     2000,
@@ -96,16 +96,27 @@ const Hero = () => {
                     style={{ fontSize: "23px" }}
                 />
                 </h3>
-                <div className="mt-6">
-                    <a
-                        href={resume}
-                        download="Vasantharan_Resume.pdf"
-                        className="inline-flex items-center gap-2 px-6 py-3 text-white border border-white rounded-lg 
-               hover:text-[#3182ce] hover:border-[#3182ce] 
-               transition-colors duration-300 ease-in-out"
-                    >
-                        Resume
-                    </a>
+                <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
+                {/* Resume Button */}
+                <a
+                    href={resume}
+                    download="Vasantharan_Resume.pdf"
+                    className="inline-flex items-center gap-2 px-6 py-3 text-white border border-white rounded-lg 
+                            hover:text-[#3182ce] hover:border-[#3182ce] 
+                            transition-colors duration-300 ease-in-out"
+                >
+                    Resume
+                </a>
+
+                {/* Freelancing Button */}
+                <a
+                    href="/freelancing"
+                    className="inline-flex items-center gap-2 px-6 py-3 text-white border border-white rounded-lg 
+                            hover:text-[#3182ce] hover:border-[#3182ce] 
+                            transition-colors duration-300 ease-in-out"
+                >
+                    Hire Me for Your Next Project
+                </a>
                 </div>
             </div>
             </motion.div>
