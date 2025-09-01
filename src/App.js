@@ -17,16 +17,16 @@ function App() {
   return (
     <div className="relative">
       <Navbar/>
-      <Hero/> 
-      <About/> 
-      <Experience/> 
-      <Education/> 
-      <Skills/>  
-      <Projects/> 
-      <Achievements/>  
-      <Youtube/> 
-      <Topmate/> 
-      <Contact/> 
+      <Hero/>
+      <About/>
+      <Experience/>
+      <Education/>
+      <Skills/>
+      <Projects/>
+      <Achievements/> 
+      <Youtube/>
+      <Topmate/>
+      <Contact/>
       <Footer/>
       <Analytics/>
       <SpeedInsights/>

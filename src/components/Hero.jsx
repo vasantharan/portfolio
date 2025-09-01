@@ -3,6 +3,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import intro from "../assets/photos/intro.png";
 import hi from "../assets/logo/hi.png";
+import resume from "../assets/resume/Resume - Vasantharan.pdf"; 
 
 const Hero = () => {
     const imageRef = useRef(null);
@@ -95,6 +96,17 @@ const Hero = () => {
                     style={{ fontSize: "23px" }}
                 />
                 </h3>
+                <div className="mt-6">
+                    <a
+                        href={resume}
+                        download="Vasantharan_Resume.pdf"
+                        className="inline-flex items-center gap-2 px-6 py-3 text-white border border-white rounded-lg 
+               hover:text-[#3182ce] hover:border-[#3182ce] 
+               transition-colors duration-300 ease-in-out"
+                    >
+                        Resume
+                    </a>
+                </div>
             </div>
             </motion.div>
         </div>
