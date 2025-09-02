@@ -78,7 +78,7 @@ const Hero = () => {
                 </span>
                 I am <span>Vasantharan K</span>
                 </h1>
-                <h3 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-200">
+                <h3 className="md:text-2xl text-lg md:leading-normal leading-5 mt-0 md:mt-4 font-bold text-gray-200">
                 <TypeAnimation
                     sequence={[
                     "Content Creator",
