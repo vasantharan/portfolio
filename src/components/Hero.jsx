@@ -114,6 +114,8 @@ const Hero = () => {
                     className="inline-flex items-center gap-2 px-6 py-3 text-white border border-white rounded-lg 
                             hover:text-[#3182ce] hover:border-[#3182ce] 
                             transition-colors duration-300 ease-in-out"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     Hire Me for Your Next Project
                 </a>
