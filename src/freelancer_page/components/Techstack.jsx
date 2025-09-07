@@ -34,7 +34,7 @@ const Techstack = () => {
                 transition={{ duration: 0.6 }}
                 className="relative marquee-mask"
             >
-                <div className="marquee">
+                <div className="marquee cursor-pointer">
                 <div className="marquee__inner">
                     {circularcontent.map((logo, idx) => (
                     <div key={idx} className="marquee__item">

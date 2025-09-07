@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import Techstack from "../freelancer_page/components/Techstack";
+import Clients from "../freelancer_page/components/Clients";
 import Team from "../freelancer_page/components/Team";
+import Freelancefooter from "../freelancer_page/components/Freelancefooter";
 
 const Freelancing = () => {
     return (
@@ -46,10 +48,11 @@ const Freelancing = () => {
             <p>Hero</p>
             <p>Services</p>
             <Techstack/>
-            <p>Clients</p>
+            <Clients/>
             <p>Testimonials</p>
             <Team/>
             <p>Enquire</p>
+            <Freelancefooter/>
         </div>
     );
 };

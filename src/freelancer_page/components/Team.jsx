@@ -41,18 +41,10 @@ const Team = () => {
         <section className="pt-10 pb-10 bg-transparent text-white px-6 md:px-12">
             <h2 className="text-3xl font-bold text-center mb-12">Our Team</h2>
 
-            <div className="flex justify-center">
-                <div
-                className={`grid gap-10 
-                    grid-cols-1
-                    ${teamdata.length === 2 ? "sm:grid-cols-2" : ""} 
-                    ${teamdata.length >= 3 ? "sm:grid-cols-2 lg:grid-cols-3" : ""}
-                `}
-                >
+            <div className="flex flex-wrap items-center justify-center gap-10">
                 {teamdata.map((member, idx) => (
                     <TeamCard key={idx} member={member} index={idx} />
                 ))}
-                </div>
             </div>
         </section>
     );

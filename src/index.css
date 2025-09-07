@@ -111,3 +111,22 @@ body::before {
     animation: none;
   }
 }
+
+@media (max-width: 1024px) {
+  .marquee__inner {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem; /* space between logos */
+    will-change: transform;
+    animation: marquee 28s linear infinite;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-500%); /* only half shift (since logos are duplicated) */
+    }
+  }
+}
