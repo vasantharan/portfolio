@@ -17,6 +17,12 @@ const educationData = [
         score: "9.57 CGPA",
         years: "2021 - 2025" 
     },
+    {
+        course: "M.S - Master of Science",
+        institute: "Indian Institute of Technology Madras, Chennai",
+        score: "",
+        years: "2026 - 2028"
+    },
 ]
 
 export default educationData;
