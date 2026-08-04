@@ -11,6 +11,12 @@ const experienceData = [
         location: "San Francisco, California (Remote)",
         duration: "Feb 2024 - June 2024" 
     },
+    {
+        company: "Indian Institute of Technology Madras, Chennai",
+        role: "Research Assistant - HTRA",
+        location: "Chennai (Half Time)",
+        duration: "Jul 2026 - Present"
+    },
 ]
 
 export default experienceData;
