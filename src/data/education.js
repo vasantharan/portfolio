@@ -18,10 +18,10 @@ const educationData = [
         years: "2021 - 2025" 
     },
     {
-        course: "M.S - Master of Science",
+        course: "M.S - Robotics and Cyber-Physical Systems",
         institute: "Indian Institute of Technology Madras, Chennai",
-        score: "",
-        years: "2026 - 2028"
+        score: "1st Semester",
+        years: "2026 - Present"
     },
 ]
 
